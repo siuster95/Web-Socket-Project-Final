@@ -1,0 +1,91 @@
+#Title 
+{
+    width: 100%;
+    text-align: center;
+}
+#Canvas
+{
+    padding: 0px;
+    display: block;
+    margin: auto;
+    border:5px solid #000000;
+}
+#Identification
+{
+    position: absolute;
+    left:84%;
+    top:20%;
+}
+#PlayerLabel
+{
+    position: absolute;
+    top: 30%;
+    left:88%;
+    font-size: 18pt;
+}
+#turn
+{
+    position: absolute;
+    top:40%;
+    left: 82%;
+}
+#turnlabel
+{
+    position: absolute;
+    top:50%;
+    left:87%;
+    font-size: 18pt;
+}
+#P1
+{
+    position: absolute;
+    top:60%;
+    left:83%;
+}
+#P1Score
+{
+    position: absolute;
+    top: 69%;
+    left:90.5%;
+    font-size:18pt;
+}
+#P2
+{
+   position:absolute;
+   top:80%;
+   left:83%; 
+}
+#P2Score
+{
+    position: absolute;
+    left:90.5%;
+    top:89%;
+    font-size:18pt;
+}
+#IntroductionLabel
+{
+    position: absolute;
+    width: 20%;
+    left: 4%;
+}
+#intro
+{
+    position: absolute;
+    top: 25%;
+    width:200px;
+    font-size:14pt;
+    left:4%;
+}
+#Instructions
+{
+    position: absolute;
+    top: 60%;
+    left:4%;
+}
+#Instructionlist
+{
+    position: absolute;
+    top:70%;
+    width:200px;
+    font-size: 14pt;
+}

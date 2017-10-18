@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <script src="/socket.io/socket.io.js"></script>
+     <script src="bundle.js"></script>
+     <script src="helper.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css" ></link>
+     
+</head>
+    <body>
+    <h1 id="Title">Othello</h1>
+    <h2 id="IntroductionLabel">Introduction</h2>
+    <p id="intro">Welcome to my implementation of Othello. This was a fun game that I used to play with my cousins that I wished to bring back on the colored screen. To Start playing, you need another player to connect</p>
+    <h2 id="Instructions">How to Play</h2>
+    <ol id="Instructionlist">
+        <li>When its your turn, place your color piece so that it flanks the other pieces, a predict circle will help you see a possible move </li>
+        <li>The game is finished when the whole board is filled with pieces</li>
+        <li><i>Note: You may play this game where their are no possible moves for a player, yet spaces are still open. This is still a bug I have to fix</i></li>
+    </ol>
+    <canvas id="Canvas" width=800 height=800></canvas>
+    <h1 id="Identification">Who you are</h1>
+    <p id="PlayerLabel"></p>
+    <h1 id="turn">Who's turn is it?</h1>
+    <p id="turnlabel"></p>
+    <h1 id="P1">Player 1 Score</h1>
+    <p id="P1Score"></p>
+    <h1 id="P2">Player 2 Score</h1>
+    <p id="P2Score"></p>
+    </body>
+</html>
